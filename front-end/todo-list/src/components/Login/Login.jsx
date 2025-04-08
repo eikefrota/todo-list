@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import './Login.css'; // Importando o CSS para estilização
+import { Link } from 'react-router-dom'; // Importando o Link
+import './Login.css';
 
 function Login() {
   const [username, setUsername] = useState('');
@@ -24,11 +25,13 @@ function Login() {
 
         <div className="form-group">
           <label htmlFor="password">SENHA</label>
-          <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
+          <input type="password" value={password} onChange={(e) => setPassword(e.target.value)}/>
         </div>
 
-        <div className='signup-link'>
-          <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
+        <div className="signup-link">
+          <p>
+            Não tem uma conta? <Link to="/cadastro">Cadastre-se</Link>
+          </p>
         </div>
 
         <button type="submit">ENTRAR</button>
