@@ -1,0 +1,88 @@
+.cadastro-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--primary-color);
+}
+
+.cadastro-form {
+  background: var(--background-color);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0rem .3125rem .375rem .125rem rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 25rem;
+}
+
+.cadastro-form h2 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-size: 1.875rem;
+  color: var(--text-color);
+}
+
+.form-group {
+  margin-bottom: 1.625rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.form-group label {
+  margin-bottom: .5rem;
+  font-weight: bold;
+  font-size: 1.125rem;
+  width: 100%;
+  color: var(--text-color);
+}
+
+.form-group input {
+  width: 100%;
+  font-size: 1.125rem;
+  padding: .625rem;
+  border: 2px solid var(--border-color);
+  border-radius: 5px;
+}
+
+.form-group input:focus {
+  border-color: var(--primary-color);
+  outline: none;
+}
+
+.login-link { 
+  font-size: 1rem;
+  margin-bottom: 1.625rem;
+  color: var(--text-color);
+}
+
+.login-link a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.login-link a:hover {
+  color: var(--primary-hover-color);
+}
+
+.signup-button {
+  font-weight: bold;
+  width: 100%;
+  padding: .75rem;
+  background-color: var(--primary-color);
+  color: var(--button-text-color);
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.signup-button:hover {
+  background-color: var(--primary-hover-color);
+  transform: scale(102%);
+}

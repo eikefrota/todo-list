@@ -1,0 +1,155 @@
+.tarefas-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: var(--primary-color);
+  min-height: 100vh;
+}
+
+.welcome-title{
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+.add-task-container {
+  display: flex;
+  background: var(--background-color);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0rem .625rem .625rem .625rem rgba(0, 0, 0, 0.1);
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  width: 100%;
+  max-width: 37.5rem;
+}
+
+.add-task-container input {
+  flex: 1;
+  padding: .625rem;
+  font-size: 1rem;
+  border: 2px solid var(--border-color);
+  border-radius: 5px;
+}
+
+.add-task-container input:focus {
+  border-color: var(--primary-color);
+  outline: none;
+}
+
+.add-task-button {
+  padding: .625rem 1rem;
+  background-color: var(--primary-color);
+  color: var(--button-text-color);
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.add-task-button:hover {
+  background-color: var(--primary-hover-color);
+  transform: scale(103%);
+}
+
+.tasks-list {
+  width: 100%;
+  max-width: 37.5rem;
+  background: var(--background-color);
+  padding: 2rem;
+  border-radius: .625rem;
+  box-shadow: 0rem .625rem .625rem .625rem rgba(0, 0, 0, 0.1);
+  gap: 1rem;
+}
+
+.tarefas-title{
+    font-size: 1.875rem;
+    color: var(--primary-color);
+    margin-bottom: .75rem;
+    text-align: center;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--primary-color);
+  padding: .75rem;
+  color: var(--background-color);
+  font-weight: bold;
+  font-size: 1.125rem;
+  margin-bottom: .75rem;
+  border-radius: 5px;
+  box-shadow: .125rem .3125rem .3125rem .125rem rgba(0, 0, 0, 0.2);
+}
+
+.task-item.completed span {
+  text-decoration: line-through;
+  color: var(--border-color);
+}
+
+.task-buttons{
+    display: flex;
+    gap: .5rem;
+}
+
+.task-buttons button {
+  padding: .5rem .75rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.complete-button {
+  background-color: var(--complete-button-color);
+  color: var(--button-text-color);
+}
+
+.complete-button:hover {
+  background-color: var(--complete-hover-color);
+}
+
+.edit-button {
+  background-color: var(--edit-button-color);
+  color: var(--button-text-color);
+}
+
+.edit-button:hover {
+  background-color: var(--edit-hover-color);
+}
+
+.edit-input {
+    width: 90%;
+    padding: .625rem;
+    font-size: 1rem;
+    border: 2px solid var(--background-color);
+    border-radius: 5px;
+    outline: none;
+  }
+  
+.edit-input:focus {
+    border: 2px solid var(--primary-hover-color);
+}
+
+.delete-button {
+  background-color: var(--delete-button-color);
+  color: var(--button-text-color);
+}
+
+.delete-button:hover {
+  background-color: var(--delete-hover-color);
+}
+
+.save-button {
+  background-color: var(--complete-button-color);
+  color: var(--button-text-color);
+}
+
+.save-button:hover {
+  background-color: var(--complete-hover-color);
+}
