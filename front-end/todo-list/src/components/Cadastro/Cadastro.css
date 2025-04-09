@@ -1,66 +1,88 @@
 .cadastro-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #646cff;
-  }
-  
-  .cadastro-form {
-    background: #fff;
-    padding: 32px;
-    border-radius: 10px;
-    box-shadow: 0px 5px 6px 2px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 400px;
-  }
-  
-  .cadastro-form h2 {
-    margin-bottom: 24px;
-    text-align: center;
-    font-size: 30px;
-    color: #282828;
-  }
-  
-  .form-group {
-    margin-bottom: 26px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
-  
-  .form-group label {
-    margin-bottom: 8px;
-    font-weight: bold;
-    font-size: 18px;
-    width: 100%;
-    color: #282828;
-  }
-  
-  .form-group input {
-    width: 95%;
-    font-size: 18px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  button {
-    font-weight: bold;
-    width: 100%;
-    padding: 12px;
-    background-color: #646cff;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: 0.3s;
-  }
-  
-  button:hover {
-    background-color: #535bf2;
-    transform: scale(102%);
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--primary-color);
+}
+
+.cadastro-form {
+  background: var(--background-color);
+  padding: 32px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 6px 2px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.cadastro-form h2 {
+  margin-bottom: 24px;
+  text-align: center;
+  font-size: 30px;
+  color: var(--text-color);
+}
+
+.form-group {
+  margin-bottom: 26px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.form-group label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 18px;
+  width: 100%;
+  color: var(--text-color);
+}
+
+.form-group input {
+  width: 100%;
+  font-size: 18px;
+  padding: 10px;
+  border: 2px solid var(--border-color);
+  border-radius: 5px;
+}
+
+.form-group input:focus {
+  border-color: var(--primary-color);
+  outline: none;
+}
+
+.login-link { 
+  font-size: 16px;
+  margin-bottom: 26px;
+  color: var(--text-color);
+}
+
+.login-link a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.login-link a:hover {
+  color: var(--primary-hover-color);
+}
+
+.signup-button {
+  font-weight: bold;
+  width: 100%;
+  padding: 12px;
+  background-color: var(--primary-color);
+  color: var(--button-text-color);
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.signup-button:hover {
+  background-color: var(--primary-hover-color);
+  transform: scale(102%);
+}

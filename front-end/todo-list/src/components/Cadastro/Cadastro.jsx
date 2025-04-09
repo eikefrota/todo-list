@@ -35,13 +35,13 @@ function Cadastro() {
           <input type="password" id="password" value={password} onChange={(e) => setPassword(e.target.value)} />
         </div>
 
-        <div className="signup-link">
+        <div className="login-link">
           <p>
             Já tem uma conta? <Link to="/">Faça login</Link>
           </p>
         </div>
 
-        <button type="submit">CADASTRAR</button>
+        <button className='signup-button' type="submit">CADASTRAR</button>
       </form>
     </div>
   );
