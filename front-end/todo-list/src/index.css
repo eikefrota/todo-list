@@ -5,6 +5,12 @@
     --background-color: #fff;
     --border-color: #ccc;
     --button-text-color: #fff;
+    --complete-button-color:rgb(0, 210, 0);
+    --complete-hover-color:rgb(0, 180, 0);
+    --edit-button-color:rgb(220, 220, 0);
+    --edit-hover-color:rgb(200, 200, 0);
+    --delete-button-color: #ff0000;
+    --delete-hover-color: #dd0000;
 }
 
 * {
