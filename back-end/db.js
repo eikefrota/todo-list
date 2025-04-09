@@ -2,12 +2,9 @@ import fs from 'fs';
 import dotenv from 'dotenv';
 import pg from 'pg';
 
-
 dotenv.config();
 
 let pool
-
-
 
 export const getConnection = () => {
     if (!pool) {

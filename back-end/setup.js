@@ -1,6 +1,5 @@
 import { getConnection, closeConnection } from './db.js';
 
-
 const createTableUser = async () => {
     const pool = getConnection ()
     try {
@@ -46,5 +45,4 @@ const createTableTarefas = async () => {
 };
 
 createTableTarefas()
-
 createTableUser()

@@ -4,7 +4,6 @@ import express from 'express';
 import path from 'path';
 import jwt from 'jsonwebtoken';
 
-
 const app = express();
 const pool = getConnection();
 
@@ -37,16 +36,6 @@ app.post('/api/tarefas', async (req, res) => {
     }
 })
 
-
-
-
-
-
-
-
-
-
 app.listen(process.env.SERVER_PORT, () => {
     console.log(`SERVIDOR INICIADO NO ENDEREÇO http://localhost:${process.env.SERVER_PORT} `)
 })
-/// meu pau
