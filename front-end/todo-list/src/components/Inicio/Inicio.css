@@ -1,0 +1,70 @@
+.inicio-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: var(--primary-color);
+  font-family: Arial, sans-serif;
+}
+
+.titulo {
+  font-size: 4.375rem;
+  color: var(--background-color);
+  margin-bottom: 2rem;
+  animation: pulse 2s infinite ease-in-out;
+}
+
+/* Animação constante para o título */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.botoes-container {
+  display: flex;
+  gap: 2rem;
+}
+
+.botao {
+  padding: 15px 50px;
+  width: 100%;
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  font-weight: bold;
+  background-color: var(--background-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+  animation: glow 2s infinite ease-in-out;
+}
+
+/* Animação constante para os botões */
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 5px var(--background-color);
+  }
+  50% {
+    box-shadow: 0 0 20px var(--background-color);
+  }
+  100% {
+    box-shadow: 0 0 5px var(--background-color);
+  }
+}
+
+.botao:hover {
+  background-color: var(--primary-hover-color);
+  transform: scale(105%);
+  color: #fff;
+}
