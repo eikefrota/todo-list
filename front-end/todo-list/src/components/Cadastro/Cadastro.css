@@ -8,22 +8,22 @@
 
 .cadastro-form {
   background: var(--background-color);
-  padding: 32px;
+  padding: 2rem;
   border-radius: 10px;
-  box-shadow: 0px 5px 6px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0rem .3125rem .375rem .125rem rgba(0, 0, 0, 0.1);
   width: 100%;
-  max-width: 400px;
+  max-width: 25rem;
 }
 
 .cadastro-form h2 {
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
   text-align: center;
-  font-size: 30px;
+  font-size: 1.875rem;
   color: var(--text-color);
 }
 
 .form-group {
-  margin-bottom: 26px;
+  margin-bottom: 1.625rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -32,17 +32,17 @@
 }
 
 .form-group label {
-  margin-bottom: 8px;
+  margin-bottom: .5rem;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1.125rem;
   width: 100%;
   color: var(--text-color);
 }
 
 .form-group input {
   width: 100%;
-  font-size: 18px;
-  padding: 10px;
+  font-size: 1.125rem;
+  padding: .625rem;
   border: 2px solid var(--border-color);
   border-radius: 5px;
 }
@@ -53,8 +53,8 @@
 }
 
 .login-link { 
-  font-size: 16px;
-  margin-bottom: 26px;
+  font-size: 1rem;
+  margin-bottom: 1.625rem;
   color: var(--text-color);
 }
 
@@ -72,12 +72,12 @@
 .signup-button {
   font-weight: bold;
   width: 100%;
-  padding: 12px;
+  padding: .75rem;
   background-color: var(--primary-color);
   color: var(--button-text-color);
   border: none;
   border-radius: 4px;
-  font-size: 16px;
+  font-size: 1rem;
   cursor: pointer;
   transition: 0.3s;
 }
