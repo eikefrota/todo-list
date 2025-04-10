@@ -153,3 +153,24 @@
 .save-button:hover {
   background-color: var(--complete-hover-color);
 }
+
+.logout-button {
+  background-color: var(--delete-button-color);
+  color: white;
+  border: none;
+  padding: 0.625rem 1.25rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 2.25rem;
+  transition: 0.3s;
+}
+
+.logout-button:hover {
+  background-color: var(--delete-hover-color);
+  transform: scale(104%);
+}
