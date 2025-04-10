@@ -45,7 +45,7 @@ function Tarefas() {
   return (
     <div className="tarefas-container">
       
-      <h2 className='welcome-title'>BEM-VINDO, EIKE!</h2>
+      <h2 className='welcome-title'>BEM-VINDO!</h2>
 
       <div className="add-task-container">
         <input type="text" placeholder="Digite uma nova tarefa" value={newTask} onChange={(e) => setNewTask(e.target.value)} />

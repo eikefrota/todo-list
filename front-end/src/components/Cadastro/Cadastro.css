@@ -52,6 +52,11 @@
   outline: none;
 }
 
+/* Adicione este estilo junto com os outros */
+.invalid-input {
+  border: 2px solid red !important;
+}
+
 .login-link { 
   font-size: 1rem;
   margin-bottom: 1.625rem;
