@@ -1,11 +1,12 @@
 import React from 'react';
 import './Inicio.css';
 import { Link } from 'react-router-dom';
+import logoTaskflow from '../../assets/logo-taskflow.png';
 
 const Inicio = () => {
   return (
     <div className="inicio-container">
-      <h1 className="titulo">LISTA DE TAREFAS</h1>
+      <img src={logoTaskflow} alt="TaskFlow Logo" className="logo" />
       <div className="botoes-container">
         <Link to="/login">
           <button className="botao">Login</button>
